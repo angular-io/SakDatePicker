@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+
+.ui-widget, .ui-widget * {
+    box-sizing: border-box;
+    font-size: 12px !important;
+}
+
+.ui-inputtext {
+    font-size: 14px;
+    color: #333333;
+    background: #ffffff;
+    padding: 0.429em;
+    border: 1px solid #a6a6a6;
+    transition: border-color 0.2s;
+    -webkit-appearance: none;
+    width: 272px;
+    border-radius: 0px;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+body .ui-datepicker table td.ui-datepicker-today > a.ui-state-active, body .ui-datepicker table td.ui-datepicker-today > span.ui-state-active {
+    color: #ffffff;
+    background-color: #0fad95;
+}
+
+body .ui-datepicker table td > a.ui-state-active, body .ui-datepicker table td > span.ui-state-active {
+    color: #ffffff;
+    background-color: #0fad95;
+}
+
+body .ui-button.ui-button-icon-only {
+    width: 2.357em;
+    margin-left: -29px;
+}
+
+body .pi {
+    font-size: 2.25em !important;
+}
+
+body .ui-button {
+    margin: 0;
+    color: #ffffff;
+    background-color: #00ad83;
+    border: 1px solid #00ad83;
+    font-size: 14px;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+body .ui-button:enabled:hover {
+    background-color: #00ad83;
+    color: #ffffff;
+    border-color: #00ad83;
+  }
